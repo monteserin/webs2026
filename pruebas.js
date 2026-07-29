@@ -1,9 +1,13 @@
-const hoy = "sábado";
+let op = '+';
+let result ;
 
-if(hoy === "sábado"){
-	console.log("Fiestón!");
-}else if(hoy === "domingo"){
-	console.log('Limpiar la casa');
-} else{
-	console.log('Ir al trabajo');
+if(op === '+'){
+   result = n1 +n2;
+}else {
+  result = n1-n2;
 }
+
+console.log(result);
+
+
+

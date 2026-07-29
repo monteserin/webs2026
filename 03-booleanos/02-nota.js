@@ -8,8 +8,3 @@ console.log("Aprobado")
   console.log("Suspenso")
 }
 
-
-if(nota%5===0){
-
-}
-

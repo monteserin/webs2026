@@ -11,3 +11,10 @@ let a;
 a = 7;
 let b = a;
 console.log(b); // Debería mostrarse el valor de a
+
+////////////////
+let tituloDeLaPelicula;
+let camelCaseBienPuesto;
+let edadDelMonstruo;
+
+///////////////////

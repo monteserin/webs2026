@@ -1,5 +1,7 @@
-function saludar(nombre) {
-  console.log("Buenas tardes " + nombre);
+function devuelveValor(a, b) {
+  const resultado = a + b;
+  return resultado;
 }
 
-saludar(true);
+const valorDevuelto = devuelveValor(2, 3);
+console.log(valorDevuelto);

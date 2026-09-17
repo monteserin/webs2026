@@ -1,7 +1,5 @@
-function hacerCosas() {
-  console.log("Llamada al callback");
-}
+const multiplicar = (x, y) => {
+  return x * y;
+};
 
-setInterval(hacerCosas, 1000);
-
-console.log("asdfsdf");
+const multiplicar2 = (x, y) => x * y;

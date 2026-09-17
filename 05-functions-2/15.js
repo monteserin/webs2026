@@ -4,5 +4,6 @@ function xor(isFuerte, isRapido) {
   // }else{
   //   return false;
   // }
+
   return isFuerte !== isRapido;
 }

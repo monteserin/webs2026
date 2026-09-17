@@ -1,2 +1,1 @@
-let number = 9;
-console.log(number);
+window.console.log();

@@ -1,0 +1,19 @@
+<script>
+  const nSecreto = Math.floor(Math.random() * 5) + 1;
+  alert(nSecreto);
+  let intentos = 0;
+  let juegoEnMarcha = true;
+  while (juegoEnMarcha) {
+    const nIntroducido = Number(prompt("Introduce un número"));
+    if (nSecreto === nIntroducido) {
+      alert("Exito");
+      juegoEnMarcha = false;
+    } else {
+      intentos++;
+      alert("Fracaso. Número de intentos " + intentos);
+      if (intentos == 3) {
+        juegoEnMarcha = false;
+      }
+    }
+  }
+</script>
